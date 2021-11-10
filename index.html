@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="line"></div>
+    </header>
+
+    <main>
+        <section class="contenedor">
+            <div class="calificacion">
+                <h2 class="title">Calificacion</h2>
+                <input type="text" class="input-nombre" id="alumno" placeholder="Nombre del Estudiante">
+                <div class="meses">
+                    <label for="" class="label">Agosto</label>
+                    <label for="" class="label">Octubre</label>
+                    <label for="" class="label">Septimbre</label>
+                    <label for="" class="label">Noviembre</label>
+                    <label for="" class="label">Diciembre</label>
+                    <input type="text" class=" input row-1_2" maxlength="3">
+                    <input type="text" class=" input row-2_3" maxlength="3">
+                    <input type="text" class=" input row-3_4" maxlength="3">
+                    <input type="text" class=" input row-4_5" maxlength="3">
+                    <input type="text" class=" input row-5_6" maxlength="3">
+                </div>
+                <div class="promedio">
+                    <label for=""><b>Promedio</b></label>
+                    <div class="resultado" id="resultado"></div>
+                </div>
+
+                <div class="botones">
+                    <button id="click">Calcular</button>
+                    <button id="limpiar">Limpiar</button>
+                </div>
+            </div>
+
+            <div class="estudiantes">
+                <h2 class="title">Estatus</h2>
+                <div class="estatus-estudiantes">
+                    <ul id="estatus">
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
